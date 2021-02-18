@@ -1,0 +1,13 @@
+; AUTHOR nlovell
+
+;< EX1
+ LINK 800
+ COPY 0 X
+ HALT
+;>
+
+;< EX2
+ MARK ROPE
+ NOOP
+ JUMP ROPE
+;/>

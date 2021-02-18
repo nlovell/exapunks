@@ -4,6 +4,8 @@
   - [About the Game](#about-the-game)
   - [About Me](#about-me)
   - [About the Repo](#about-the-repo)
+  - [Submissions](#submissions)
+  - [EXA Code Guides](#exa-code-guides)
 
 ---
 
@@ -31,6 +33,38 @@ Aspiring software engineer, and advanced idiot in the field of _doing a lot of t
 
 ## About the Repo
 
-This was written in Visual Studio, with the help of some Markdown plugins and the [`EXA Syntax Highlighting` plugin](https://marketplace.visualstudio.com/items?itemName=pizzafox.exa-syntax-highlighting). Feel free to add your own solutions by submitting a pull request!
+This was written in Visual Studio, with the help of some Markdown plugins and the [`EXA Syntax Highlighting` plugin](https://marketplace.visualstudio.com/items?itemName=pizzafox.exa-syntax-highlighting). Feel free to add your own solutions by submitting a pull request.
+
+The `missions.zip` file included in the repo is labelled for every level in the game, if you want to make a similar repo of your own.
 
 ---
+
+## Submissions
+
+The [`example.exa`](/example.exa) file will show you how to format your own files for this repo. Note the use of `;< EX1` and `;>` at the start and end of modules containing multiple Exas; this, coupled with a single-space indent, is enough to enable code collapsing in VScode.
+
+Files in the `code` directory are labelled with their execution properties. To explain what I mean for this, consider the code of `4C 3S 2A.exa`;
+
+``` EXA
+LINK 800
+GRAB 200
+LINK 800
+```
+
+When executed in the level Trash World News 1, this code gives the following results:
+
+|Cycles|Size|Activity|
+|------|----|--------|
+|    4 |  3 |      2 |
+
+Simple, no?
+
+---
+
+## EXA Code Guides
+
+There's a few fun resources available online for learning more about how to program in the EXA language.
+
+- [Exapunks Fandom Wiki](https://exapunks.fandom.com/wiki/EXA_instructions)
+- [No Spoilers Code Guide by Wracketeer](https://steamcommunity.com/sharedfiles/filedetails/?id=1594593250)
+- [Seralphi's Repository](https://github.com/Seraphli/EXAPunks)
